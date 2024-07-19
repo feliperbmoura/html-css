@@ -1,0 +1,37 @@
+body{
+    /*  
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vh, vw, %.
+    */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: normal ;
+    font-style: italic;
+    /* Lighter normal bold bolder */
+    
+    /* (Weight=Peso) (width=Largura) (height=altura) */
+}
+
+h1{
+    /* shorthand font
+
+    - font-style -> font-weight -> font-size -> font-family 
+
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;  
+
+     /  font-style  /  font-weight /  font-size    /    font-family     /
+font:     italic         bolder          3em      'Courier New' monospace;
+
+    */
+    font: italic bolder 3em 'Courier New' monospace;
+}
+
+h2{
+    font: bolder 1em 'Courier New' monospace;
+}

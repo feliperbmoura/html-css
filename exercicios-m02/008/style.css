@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    background-color: wheat;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #00ff37, #006d00);
+    padding: 10px;
+    color: white;
+    box-shadow: 1px 1px 15px black;
+}
+header > h1 {
+    text-align: center;
+}
+header > p{
+    text-align: center;
+}
+
+
+nav > a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover{
+    color: aqua;
+    background-color: #006d00;
+    padding: 10px;
+    transition: 0.2s ease-in-out;
+}
+
+main{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 10px;
+    border-radius: 0px 10px 0px 10px;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.486);
+}
+main > h1 {
+    color: #006d00;
+    font-size: 28px;
+    font-weight: 400;
+}
+main > h2{
+    background-image: linear-gradient(to left, #00ff372c, #1a9602);
+    color: white;
+    font-weight: 300;
+    padding: 1px;
+}
+main > p > a{
+    background-color: #00ff37;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+main > p > a:hover {
+    background-color: #009b00;
+    color: white;
+}
+
+main > img{
+    width: 100%;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: lighter;
+}
+
+#bugdroid {
+    width: 40%;
+    margin-left: 25%;
+}
+
+#video{
+    width: 100%;
+    margin-top: 10px;
+    height: 600px;
+    border-radius: 15px;
+}
+

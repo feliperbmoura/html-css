@@ -1,0 +1,37 @@
+
+
+* {
+
+}
+
+body {
+    background-image: linear-gradient(to right, #DB888C, #E3EBFF, #4392F1);
+}
+
+main{
+    background-color: #d5a4f1c5;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 25px rgba(64, 42, 81, 0.466);
+}
+
+h1{
+    color: #402A51;
+    text-align: center;
+    text-shadow: 1px 1px 25px #5d1a918a;
+}
+
+h2 {
+    color: #402A51;
+    text-align: ;
+    text-shadow: 1px 1px 25px #5d1a918a;
+}
+p {
+    text-align: justify;
+    color: #4392F1;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: #402A51;
+}
