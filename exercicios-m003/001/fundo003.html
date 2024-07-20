@@ -5,53 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Posição dos fundos</title>
     <style>
-        body {
-            margin: 0;
-        }
         div.bloco{
-            height: 60px;
-            display: flex;
-            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.363);
-            align-items: center;
-            justify-content: space-around;
+            background-image: url(imagens/wallpaper003.jpg);
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+            margin: 10px;
         }
-        
-        div > nav > a {
-            text-decoration: none;
-            color: black;
-            padding: 10px;
-            margin-right: 100px;
-            transition-duration: 1s;
+        div#q1{
+            background-position: left top;
         }
 
-        div > nav > a:hover {
-            background-color: #f2f2f2;
-            transition-duration: 1s;
+        div#q2{
+            background-position: left center;
         }
 
-        @media screen and (max-width: 768px) {
-            div.bloco {
-                padding: 20px;
-                flex-direction: column;
-            }
-            div > nav > a {
-                margin-right: 0;
-            }
-            div > nav > a:nth-child(2) {
-                margin-bottom: 10px;
-            }
+        div#q3{
+            background-position: right bottom;
+        }
+
+        div#q4{
+            background-position: center center;
         }
 
     </style>
 </head>
 <body>
-    <div class="bloco">
-        <h1>Logo</h1>
-        <nav class="links">
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-        </nav>
-    </div>
+    <div class="bloco" id="q1"></div>
+    <div class="bloco" id="q2"></div>
+    <div class="bloco" id="q3"></div>
+    <div class="bloco" id="q4"></div>
 </body>
 </html>
